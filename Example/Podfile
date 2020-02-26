@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'Lava_Example' do
+  pod 'Lava', :path => '../'
+
+  target 'Lava_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

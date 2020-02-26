@@ -1,0 +1,30 @@
+{
+  "name": "Lava",
+  "version": "0.1.0",
+  "summary": "A short description of Lava.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sjq2150@gmail.com/Lava",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sjq2150@gmail.com": "sjq2150@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/sjq2150@gmail.com/Lava.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Lava/Classes/**/*",
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.8.0"
+    ],
+    "ObjectMapper": [
+      "~> 3.4.0"
+    ]
+  }
+}

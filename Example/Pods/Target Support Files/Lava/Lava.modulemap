@@ -1,0 +1,6 @@
+framework module Lava {
+  umbrella header "Lava-umbrella.h"
+
+  export *
+  module * { export * }
+}
