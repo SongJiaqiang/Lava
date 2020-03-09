@@ -1,31 +1,31 @@
 //
 //  ViewController.swift
-//  Lava
+//  Lava_Example_Mac
 //
-//  Created by sjq2150@gmail.com on 02/20/2020.
-//  Copyright (c) 2020 sjq2150@gmail.com. All rights reserved.
+//  Created by Jarvis on 2020/3/8.
+//  Copyright © 2020 CocoaPods. All rights reserved.
 //
 
-import UIKit
+import Cocoa
 import Lava
 
-class ViewController: UIViewController {
+class ViewController: NSViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         test()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override var representedObject: Any? {
+        didSet {
+        // Update the view, if already loaded.
+        }
     }
     
-    
-    /// enable Outgoing Connections in capability settings
     func test() {
-        Lava.shared.config(isDebug: false, useHttps: true)
+        
+        Lava.shared.config(isDebug: false, useHttps: false)
         
         Lava.shared.fetchAllRadios({ (objects) in
             print("fetchAllRadios successed \(objects.count)")

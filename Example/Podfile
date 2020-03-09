@@ -2,10 +2,14 @@ use_frameworks!
 
 target 'Lava_Example' do
   pod 'Lava', :path => '../'
+#  pod 'Lava'
 
   target 'Lava_Tests' do
     inherit! :search_paths
-
     
   end
+end
+
+target 'Lava_Example_Mac' do
+  pod 'Lava', :path => '../'
 end
