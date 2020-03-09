@@ -11,9 +11,9 @@ import ObjectMapper
 
 public class LRNowChannel: Mappable {
 
-    var dayofweek: String?
-    var timeid: String?
-    var channels: [LRChannel]?
+    public var dayofweek: String?
+    public var timeid: String?
+    public var channels: [LRChannel]?
     
     public required init?(map: Map) {
         

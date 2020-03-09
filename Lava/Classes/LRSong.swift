@@ -11,15 +11,15 @@ import ObjectMapper
 
 public class LRSong : NSObject, Mappable {
 
-    var songId: String!
-    var songName: String!
-    var salbumsName: String?
-    var artistsName: String?
-    var duration: String?
-    var filesize: String?
-    var audioURL: String?
-    var picURL: String?
-    var programId: String?
+    public var songId: String!
+    public var songName: String!
+    public var salbumsName: String?
+    public var artistsName: String?
+    public var duration: String?
+    public var filesize: String?
+    public var audioURL: String?
+    public var picURL: String?
+    public var programId: String?
 
     public required init?(map: Map) {
         

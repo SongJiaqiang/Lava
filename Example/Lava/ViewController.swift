@@ -22,7 +22,6 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    
     /// enable Outgoing Connections in capability settings
     func test() {
         Lava.shared.config(isDebug: false, useHttps: true)

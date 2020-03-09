@@ -11,9 +11,9 @@ import ObjectMapper
 
 public class LRRadio: Mappable {
     
-    var radioId: Int?
-    var radioName: String?
-    var channels: [LRChannel]?
+    public var radioId: Int?
+    public var radioName: String?
+    public var channels: [LRChannel]?
     
     public required init?(map: Map) {
         

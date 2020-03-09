@@ -10,12 +10,12 @@ import Foundation
 import ObjectMapper
 
 public class LRChannel: Mappable {
-    var channelId: String?
-    var channelName: String?
-    var channelDesc: String?
-    var radioId: String?
-    var radioName: String?
-    var picURL: String?
+    public var channelId: String?
+    public var channelName: String?
+    public var channelDesc: String?
+    public var radioId: String?
+    public var radioName: String?
+    public var picURL: String?
 
     public required init?(map: Map) {
         
